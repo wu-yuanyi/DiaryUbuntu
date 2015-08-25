@@ -1,0 +1,86 @@
+安装日志
+
+2015.05.28
++为python2.7安装包xmltodic
+|https://github.com/martinblech/xmltodict
+|xmltodict将xml格式转换为dictionary格式
+|sudo pip install xmltodict
+
+2015.07.01
++安装android studio
+|https://developer.android.com/sdk/index.html
+
+2015.07.12
++安装jd-gui
+|http://jd.benow.ca/
+|jd-gui依赖于C/C++，所以需要安装以下
+|sudo apt-get install libgtk2.0-0:i386 libxxf86vm1:i386 libsm6:i386 lib32stdc++6
+
+2015.07.13
++ubuntu下安装github
+|http://www.pythoner.com/263.html
+|sudo apt-get install git git-core git-gui git-doc git-svn git-cvs gitweb gitk git-email git-daemon-run git-el git-arch
+
+2015.07.14
++为python3安装包scapy
+|https://github.com/phaethon/scapy
+|scapy是一个交互式数据包处理程序，用来发送，嗅探，解析，伪造网络数据包。
+|pip3 install scapy-python3
+----------------------------------------------------------------------
++为python3安装包websockets
+|http://aaugustin.github.io/websockets/
+|websockets用于开发websockets服务器
+|sudo pip3 install asyncio
+|sudo pip3 installwebsockets
+
+2015.07.22
++.py to .exe
+|py2exe
+|sudo pip3 install py2exe //这是给windows的
+|PyInstaller
+|sudo python3 setup.py install
+
+2015.07.27
++python3处理xlsx文件
+|sudo pip3 install xlsxwriter
+
+2015.08.01
++清理/boot
+|cd /boot
+|ls
+|aptitude search ~nlinux~nimage~i
+||uname -a
+|sudo aptitude search '~n(3.13.0-24|3.13.0-4|3.13.0-5)'
+|sudo aptitude remove '~n(3.13.0-24|3.13.0-4|3.13.0-5)'
+|df .
+
+2015.08.04
++查看CPU器温度
+|sudo apt-get install lm-sensors
+|snesors
+
+2015.08.15
++安装python3的 numpy库
+|sudo pip3 install numpy
++安装python的numpy库和opencv库
+|sudo apt-get install python-numpy
+||import numpy
+|sudo apt-get install python-opencv
+||import cv2
+
+2015.08.21
++安装pandoc，阅览markdown
+|sudo apt-get install pandoc
++live editor:UberWriter
+|sudo add-apt-repository ppa:w-vollprecht/ppa
+|sudo apt-get update
+|sudo apt-get install uberwriter
+
+2015.08.23
++python3安装mysql苦
+|sudo pip3 install mysql-connector-python --allow-external mysql-connector-python
+
+2015.08.25
++python3 安装yaml库
+|sudo apt-get install libyaml-0-2
+|sudo apt-get install python3-yaml
