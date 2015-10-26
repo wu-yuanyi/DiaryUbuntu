@@ -86,13 +86,13 @@
 |sudo apt-get install python3-yaml
 
 2015.10.03
-+安装zeal
++安装zeal 文档浏览
 |sudo add-apt-repository ppa:zeal-developers/ppa
 |sudo apt-get update
 |sudo apt-get install zeal
 
 2015.10.05
-+安装zsh,oh my zsh
++安装zsh,oh my zsh 一种shellZShell
 |sudo apt-get install zsh
 |chsh -s /bin/zsh
 |wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
