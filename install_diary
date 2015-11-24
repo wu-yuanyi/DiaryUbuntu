@@ -49,7 +49,7 @@
 |cd /boot
 |ls
 |aptitude search ~nlinux~nimage~i
-||uname -a
+|uname -a
 |sudo aptitude search '~n(3.13.0-24|3.13.0-4|3.13.0-5)'
 |sudo aptitude remove '~n(3.13.0-24|3.13.0-4|3.13.0-5)'
 |df .
