@@ -98,5 +98,29 @@
 |wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 
 2015.10.10
-+安装ack-grep，搜索关键字
++安装ack-grep 搜索关键字
 |sudo apt-get install ack-grep
+
+2015.12.11
++安装tessact的依赖
+|sudo apt-get install libpng12-dev
+|sudo apt-get install libjpeg62-dev
+|sudo apt-get install libtiff4-dev
+|sudo apt-get install gcc
+|sudo apt-get install g++
+|sudo apt-get install automake
++安装tessact-ocr 光学字符识别
+|sudo apt-get install tesseract-ocr
++安装语言文件(英语,中文简体)
+|sudo apt-get install tesseract-ocr-eng
+|sudo apt-get install tesseract-ocr-chi-sim
++安装tesseract-ocr的图形前端gimagereader
+|sudo add-apt-repository ppa:sandromani/gimagereader
+|sudo apt-get update
+|sudo apt-get install gimagereader
+
+2015.12.12
++安装Pillow,a modern fork of PIL
+|sudo rm -r /usr/lib/python2.7/dist-packages/PIL
+|sudo pip3 install pillow
+
