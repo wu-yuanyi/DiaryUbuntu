@@ -124,3 +124,24 @@
 |sudo rm -r /usr/lib/python2.7/dist-packages/PIL
 |sudo pip3 install pillow
 
+2015.12.24
++安装ROS
+#设置软件源
+|sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+#建立密钥
+|sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net:80 --recv-key 0xB01FA116
+#安装
+|sudo apt-get update
+|sudo apt-get install ros-jade-desktop-full
+#查找命令apt-cache search ros-jade
+#初始化rosdep
+|sudo rosdep init
+|rosdep update
+#设置环境
+|echo "source /opt/ros/jade/setup.bash" >> ~/.bashrc
+|source ~/.bashrc
+#安装rosinstall
+|sudo apt-get install python-rosinstall
+#查看源码
+|apt-get source packagename
+
