@@ -145,3 +145,8 @@
 #查看源码
 |apt-get source packagename
 
+2015.12.29
++安装搜狗输入法
+#安装依赖fctix
+|sudo apt-get install fcitx
+|官网下载deb包双击运
