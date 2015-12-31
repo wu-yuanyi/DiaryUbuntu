@@ -150,3 +150,18 @@
 #安装依赖fctix
 |sudo apt-get install fcitx
 |官网下载deb包双击运
++安装spf13-vim
+#卸载了，原因如下
+#要修改set listchars=tab:\|\
+#和系统不是同一个clipboard
+|curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+
+2015.12.30
++卸载firefox，安装chromium
+|Ubuntu Software Center
+|chrome安装插件vimium，好用到爆表
+|chromium安装插件AdBlockPlus
+
+2015.12.31
++为chromium安装flash插件
+|https://wiki.ubuntu.com/Chromium/Getting-Partner-Flash
