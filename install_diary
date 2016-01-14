@@ -170,3 +170,10 @@
 +安装asciidoctor 将AsciiDoc转换成HTML，DocBook等
 #https://github.com/asciidoctor/asciidoctor
 |sudo apt-get install -y asciidoctor
++安装visual-studio-code
+#利用ubuntu-make来安装
+#http://askubuntu.com/questions/616075/how-to-install-visual-studio-code-on-ubuntu
+|sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+|sudo apt-get update
+|sudo apt-get install ubuntu-make
+|umake web visual-studio-code
