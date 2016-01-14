@@ -165,3 +165,8 @@
 2015.12.31
 +为chromium安装flash插件
 |https://wiki.ubuntu.com/Chromium/Getting-Partner-Flash
+
+2016.01.14
++安装asciidoctor 将AsciiDoc转换成HTML，DocBook等
+#https://github.com/asciidoctor/asciidoctor
+|sudo apt-get install -y asciidoctor
