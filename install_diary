@@ -177,3 +177,8 @@
 |sudo apt-get update
 |sudo apt-get install ubuntu-make
 |umake web visual-studio-code
+
+2016.01.15
++安装atom，它有asciidoc
+|Download atom-amd64.deb
+|sudo dpkg --install atom-amd64.deb
