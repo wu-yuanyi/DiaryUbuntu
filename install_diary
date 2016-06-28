@@ -200,3 +200,18 @@
 +安装slurm测网速
 |sudo apt-get install slurm
 |slurm -i eth0
+
+2016.04.10
++安装Nodejs
+|curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+|sudo apt-get install -y nodejs
++安装hexo
+|sudo npm install hexo-cli -g
+
+2016.05.29
++安装shadowsocks
+|sudo pip install shadowsocks
+
+2016.06.28
++安装Rust
+|curl -sSf https://static.rust-lang.org/rustup.sh | sh
